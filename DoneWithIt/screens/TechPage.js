@@ -18,7 +18,6 @@ export default function TechPage() {
         <Text style={styles.update}>
           4. TechFest Announcements Coming Soon!
         </Text>
-        {/* Add more updates */}
       </ScrollView>
     </View>
   );

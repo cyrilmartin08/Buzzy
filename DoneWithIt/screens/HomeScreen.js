@@ -4,28 +4,26 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Home</Text>
+      <Text style={styles.heading}>Welcome to CITECH Buzz!</Text>
 
-      {/* Button for Tech Page */}
+      {/* Corrected Navigation Names */}
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('TechScreen')}
+        onPress={() => navigation.navigate('TechScreen')} // Corrected name
       >
         <Text style={styles.buttonText}>Tech</Text>
       </TouchableOpacity>
 
-      {/* Button for Cultural Page */}
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('CulturalScreen')}
+        onPress={() => navigation.navigate('CulturalScreen')} // Corrected name
       >
         <Text style={styles.buttonText}>Cultural</Text>
       </TouchableOpacity>
 
-      {/* Button for Sports Page */}
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('SportsScreen')}
+        onPress={() => navigation.navigate('SportsScreen')} // Corrected name
       >
         <Text style={styles.buttonText}>Sports</Text>
       </TouchableOpacity>

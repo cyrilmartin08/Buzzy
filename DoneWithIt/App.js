@@ -12,19 +12,25 @@ import TechPage from './screens/TechPage';
 
 const Stack = createStackNavigator();
 
-
-
 export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Splash">
-        <Stack.Screen name="Splash" component={SplashScreen} options={{ headerShown: false }} />
-        <Stack.Screen name="Login" component={LoginPage} options={{ headerShown: false }} />
+        <Stack.Screen
+          name="Splash"
+          component={SplashScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Login"
+          component={LoginPage}
+          options={{ headerShown: false }}
+        />
         <Stack.Screen name="StudentForm" component={StudentForm} />
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Tech" component={TechPage} />
-        <Stack.Screen name="Cultural" component={CulturalPage} />
-        <Stack.Screen name="Sports" component={SportsPage} />
+        <Stack.Screen name="TechScreen" component={TechPage} />
+        <Stack.Screen name="CulturalScreen" component={CulturalPage} />
+        <Stack.Screen name="SportsScreen" component={SportsPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );

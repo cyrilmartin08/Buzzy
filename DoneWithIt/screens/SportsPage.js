@@ -18,7 +18,6 @@ export default function SportsPage() {
         <Text style={styles.update}>
           4. Cricket Coaching Camp: Enroll Today!
         </Text>
-        {/* Add more updates */}
       </ScrollView>
     </View>
   );
@@ -27,22 +26,21 @@ export default function SportsPage() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
+    padding: 20,
   },
   header: {
-    fontSize: 28,
+    fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
   },
   content: {
-    paddingHorizontal: 20,
+    paddingBottom: 20,
   },
   update: {
     fontSize: 16,
-    marginBottom: 10,
+    marginVertical: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ddd',
+    paddingBottom: 5,
   },
 });
-//
-
