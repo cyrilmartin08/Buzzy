@@ -5,6 +5,8 @@
 ![tech-screen](https://github.com/user-attachments/assets/387049c3-d7b5-427e-8e3b-d23dba74f6ce)
 ![cultural-screen](https://github.com/user-attachments/assets/685c0c72-c569-4db7-a397-ba0478da759f)
 ![sports-screen](https://github.com/user-attachments/assets/f3e00597-f166-41cc-9656-09345ee40b64)
+
+
 CITech Buzz is a mobile application developed to provide an efficient and streamlined platform for managing notifications in academic institutions.
 The app aims to bridge the gap between students and faculty by offering a unified platform for disseminating information.
 It supports real-time notifications and event updates ensuring that users stay informed about all academic and extracurricular activities.
