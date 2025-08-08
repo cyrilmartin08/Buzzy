@@ -19,3 +19,4 @@ The application is built using JavaScript using React Native Framework for cross
  ![sports-screen](https://github.com/user-attachments/assets/f3e00597-f166-41cc-9656-09345ee40b64) 
 
 -->
+![collage-of-screens](https://github.com/cyrilmartin08/Buzzy/blob/main/DoneWithIt/assets/Student%20vieww/collage-of-screens.jpg)
