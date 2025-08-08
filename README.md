@@ -108,7 +108,7 @@ expo start --web
 3. The app will load on your device
 
 ## Project Structure
-
+<!--
 DoneWithIt/
 ├── App.js # Main app component with navigation
 ├── index.js # Entry point
@@ -122,7 +122,9 @@ DoneWithIt/
 │   ├── HomeScreen.js # Main dashboard
 │   ├── CulturalPage.js # Cultural activities
 │   ├── SportsPage.js # Sports activities
-│   └── TechPage.js # Tech activities
+│   └── TechPage.js # Tech activities 
+-->
+<img width="648" height="709" alt="image" src="https://github.com/user-attachments/assets/6d5ef197-540f-4102-a34c-22887cc7545f" />
 
 
 ## Dependencies
