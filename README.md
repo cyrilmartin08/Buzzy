@@ -109,7 +109,7 @@ expo start --web
 
 ## Project Structure
 
- DoneWithIt/
+DoneWithIt/
 ├── App.js # Main app component with navigation
 ├── index.js # Entry point
 ├── package.json # Dependencies and scripts
