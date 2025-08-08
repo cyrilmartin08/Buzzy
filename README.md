@@ -20,3 +20,139 @@ The application is built using JavaScript using React Native Framework for cross
 
 -->
 ![collage-of-screens](https://github.com/cyrilmartin08/Buzzy/blob/main/DoneWithIt/assets/Student%20vieww/collage-of-screens.jpg)
+
+#Buzzy 
+
+A React Native mobile application built with Expo that provides a platform for students to explore and engage with different categories like Cultural, Sports, and Tech activities.
+
+## Features
+
+- **Splash Screen**: Welcome screen with app branding
+- **Login/Signup**: User authentication system
+- **Student Form**: Registration form for student details
+- **Home Screen**: Main dashboard with navigation
+- **Category Pages**: 
+  - Cultural activities
+  - Sports activities  
+  - Tech activities
+- **Navigation**: Stack-based navigation between screens
+
+## Prerequisites
+
+Before running this project, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [Expo Go](https://expo.dev/client) app on your mobile device (for testing)
+
+## Getting Started
+
+### 1. Install Dependencies
+
+First, install all the required dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 2. Start the Development Server
+
+Run one of the following commands to start the development server:
+
+```bash
+npm start
+# or
+yarn start
+# or
+expo start
+```
+
+This will open the Expo Developer Tools in your browser.
+
+### 3. Run on Different Platforms
+
+#### For Android:
+```bash
+npm run android
+# or
+yarn android
+# or
+expo start --android
+```
+
+#### For iOS:
+```bash
+npm run ios
+# or
+yarn ios
+# or
+expo start --ios
+```
+
+#### For Web:
+```bash
+npm run web
+# or
+yarn web
+# or
+expo start --web
+```
+
+### 4. Testing on Mobile Device
+
+1. Install the **Expo Go** app on your mobile device
+2. Scan the QR code displayed in the Expo Developer Tools
+3. The app will load on your device
+
+## Project Structure
+
+ DoneWithIt/
+├── App.js # Main app component with navigation
+├── index.js # Entry point
+├── package.json # Dependencies and scripts
+├── assets/ # Images and static assets
+│   └── Student vieww/ # UI mockups and designs
+├── screens/ # App screens
+│   ├── SplashScreen.js # Welcome screen
+│   ├── LoginPage.js # Authentication screen
+│   ├── StudentForm.js # Student registration
+│   ├── HomeScreen.js # Main dashboard
+│   ├── CulturalPage.js # Cultural activities
+│   ├── SportsPage.js # Sports activities
+│   └── TechPage.js # Tech activities
+
+
+## Dependencies
+
+This project uses the following main dependencies:
+
+- **React Native**: Core framework
+- **Expo**: Development platform and tools
+- **React Navigation**: Navigation between screens
+- **React Native Vector Icons**: Icon library
+- **React Native Reanimated**: Animation library
+- **React Native Gesture Handler**: Touch handling
+
+## Development
+
+You can start editing the app by modifying the files in the `screens/` directory. The app will automatically reload when you save changes.
+
+## Learn More
+
+To learn more about the technologies used in this project:
+
+- [React Native Documentation](https://reactnative.dev/docs/getting-started)
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Navigation Documentation](https://reactnavigation.org/docs/getting-started)
+
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests.
+
+## License	
+
+This project is licensed under the 0BSD License.
+
